@@ -13,8 +13,8 @@ Padding({Key key, @required EdgeInsetsGeometry padding, Widget child })
 Center({Key key, double widthFactor, double heightFactor, Widget child })
 ```
 ##### Properties
-* `heightFactor` -> `double` 如果不为`null`，设置`Center`的高度为`child`的高度与该值的乘积。
-* `widthFactor` -> `double` 如果不为`null`，设置`Center`的宽度为`child`的宽度与该值的乘积。
+* `heightFactor` -> `double` 如果不为`null`，设置`Center`的高度为`child`的高度与该值的乘积。
+* `widthFactor` -> `double` 如果不为`null`，设置`Center`的宽度为`child`的宽度与该值的乘积。
 
 ## [Align class](https://docs.flutter.io/flutter/widgets/Align-class.html)
 这种`widget`将它的`child`按照`alignment`值来对齐，并且可能基于它的子节点尺寸来改变自身尺寸。
@@ -29,13 +29,13 @@ FittedBox({Key key, BoxFit fit: BoxFit.contain, AlignmentGeometry alignment: Ali
 ```
 
 ## [AspectRatio class](https://docs.flutter.io/flutter/widgets/AspectRatio-class.html)
-这个`widget`会改变它的`child`的尺寸为一个具体的宽高比例。
+这个`widget`会改变它的`child`的尺寸为一个具体的宽高比例。
 ```
 AspectRatio({Key key, @required double aspectRatio, Widget child })
 ```
 
 ### [ConstrainedBox class](https://docs.flutter.io/flutter/widgets/ConstrainedBox-class.html)
-为它的`child`添加一个强制执行的额外约束。
+为它的`child`添加一个强制执行的额外约束。
 ```
 ConstrainedBox({Key key, @required BoxConstraints constraints, Widget child })
 ```
@@ -47,13 +47,13 @@ Baseline({Key key, @required double baseline, @required TextBaseline baselineTyp
 ```
 
 ## [FractionallySizedBox class](https://docs.flutter.io/flutter/widgets/FractionallySizedBox-class.html)
-这种`widget`根据总共可用空间的`fraction`来改变它的`child`的尺寸。
+这种`widget`根据总共可用空间的`fraction`来改变它的`child`的尺寸。
 ```
 FractionallySizedBox({Key key, AlignmentGeometry alignment: Alignment.center, double widthFactor, double heightFactor, Widget child })
 ```
 
 ## [IntrinsicHeight class](https://docs.flutter.io/flutter/widgets/IntrinsicHeight-class.html)
-这个`widget`会根据它的`child`的本身高度来改变高度。使用这个类会有相当的性能损耗，因为在最终布局阶段前它会添加一个推测布局。尽量避免使用这个类。最糟糕的情况，这个`widget`会导致树的深度为O(N²)的布局。
+这个`widget`会根据它的`child`的本身高度来改变高度。使用这个类会有相当的性能损耗，因为在最终布局阶段前它会添加一个推测布局。尽量避免使用这个类。最糟糕的情况，这个`widget`会导致树的深度为O(N²)的布局。
 ```
 IntrinsicHeight({Key key, Widget child })
 ```
