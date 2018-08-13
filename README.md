@@ -1,8 +1,9 @@
-# firstdemo
+这是一个学习使用`Flutter`的demo。<br>
+* 使用 [Navigator](https://flutter.io/flutter-for-ios/#navigation) 来实现多页面的导航；
+* 使用 [image_picker](https://github.com/flutter/plugins/tree/master/packages/image_picker) 来学习Flutter和Native Api的桥接方式；
+* 学习[Widget Layout](https://flutter.io/widgets/)，通过系统提供的Widget来学习Flutter的布局方式；
+* 尝试自定义Plugin;
 
-A new Flutter project.
-
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+## 结果
+<img src="README_images/home.png" width="300"><br>
+<img src="README_images/navigation.png" width="300">
