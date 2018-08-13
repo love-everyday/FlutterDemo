@@ -7,3 +7,4 @@
 ## 结果
 <img src="README_images/home.png" width="300"><br>
 <img src="README_images/navigation.png" width="300">
+<img src="README_images/navigation-detail.png" width="300">
